@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <tittle><h1><center>Contect Us</center></h1></tittle>
+<style>
+    h1{
+        color:blue;
+        
+    }
+    /* table{
+        background:rgb(51, 255, 0);
+    
+    } */
+     body{
+        font-family:white;
+     }
+     {
+        font-family: 'Open Sans', sans-serif;
+    }
+    #main-heading,h2 {
+        color: blueviolet;
+        text-align: center;
+    }
+    #successheading {
+        color: green;
+        text-align: center;
+    }
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    form {
+        background-color: rgb(36, 146, 197);
+        color: rgb(27, 19, 19);
+        margin: 10px;
+        padding: 10px 20px;
+    }
+    textarea { 
+        vertical-align: top; 
+    }
+    input, select {
+        padding: 5px;
+        margin: 10px;
+    }
+    
+    input[type=submit], [type=reset] {
+        border: none;
+        margin-left: auto;
+        margin-right: auto;
+        height: 25px;
+        width: 100px;
+    }
+
+
+</style>
+
+
+
+
+
+</head>
+<body bgcolor="lightblue">
+    
+
+
+    <form action="#">
+        <h3>Please fill this form:</h3>
+        <p> <table>
+            <tr>
+                <td label for="fname">FIRST NAME</label>              
+               </td><br>
+                <td>
+                <input type="text" id="fname" name="fname" placeholder="Enter first name" required maxlength="30">
+                       (max 30 characters a-z and A-Z)</td>
+               </tr>
+               <tr>
+                   <td label for="lname">LAST NAME</label>              
+                   </td>
+                   <td>
+                   <input type="text" id="lname" name="lname" placeholder="Enter last name" required maxlength="30">
+                          (max 30 characters a-z and A-Z)</td>
+                  </tr>
+        <tr>
+            <td label for="email">EMAIL:</label>              
+            </td><br>
+            <td>
+            <input id="email" name="fname" placeholder="Enter your email here" required maxlength="30">
+                   </td><br>
+                   <tr>
+                    <td label for="PH">MOBILE NUMBER:</label>              
+                    </td>
+                    <td>
+                    <input type="text" id="PH" name="PH" placeholder="Enter NUMBER HERE" required maxlength="30">
+                           (max 11 characters )</td>
+                           
+                        </td>  
+                        </tr>              
+        <br>
+        <tr>
+         <td label for="password:">password</td></lable>
+        <td>
+            <input type="password" name="password" size="15" maxlength="100">( minimum 6 character)
+        </td>
+        </tr>
+        <tr>
+          <td label for="Comments">Comments</td></lable>       
+        <td>
+             <textarea name="comments"  cols="30" rows="10"></textarea>   </td>                        
+            </tr>
+        <tr>
+            <td label for="Gender">Gender</td></lable>  
+           <td>
+           Male: <input type="radio" value="Male" id="">
+        
+           Female: <input type="radio" value="Female" id="">
+            others:<input type="radio" value="others" id="">
+            </td>
+            
+        
+        </tr>
+        <tr>
+            <td label for="dob">DATE OF BIRTH</label>              
+            </td>
+            <td><br>
+                <select id="days" name="days">
+                    <option value="" selected disabled hidden>Day:</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                 <option value="19">19</option>
+                    <option value="20">20</option>
+                    <option value="21">21</option>
+                    <option value="22">22</option>
+                    <option value="23">23</option>
+                    <option value="24">24</option>
+                    <option value="25">25</option>
+                    <option value="26">26</option>
+                    <option value="27">27</option>
+                    <option value="28">28</option>
+                    <option value="29">29</option>
+                    <option value="30">30</option>
+                    <option value="31">31</option>        
+                    <option value="18">18</option>
+                </select>
+              
+            
+                    <select id="month" name="month">
+                        <option value="" selected disabled hidden>month:</option>
+                        <option value="january">january</option>
+                        <option value="feburary">feburary</option>
+                        <option value="march">march</option>
+                        <option value="april">april</option>
+                        <option value="may">may</option>
+                        <option value="june">june</option>
+                        <option value="july">july</option>
+                        <option value="august">august</option>
+                        <option value="september">september</option>
+                        <option value="october">october</option>
+                        <option value="november">november</option>
+                        <option value="december">december</option>                      
+                    </select>                         
+                    
+                    <select id="year" name="year">
+                        <option value="" selected disabled hidden>year:</option>
+                        <option value="2023">2023</option>
+                        <option value="2022">2022</option>
+                        <option value="2021">2021</option>
+                        <option value="2020">2020</option>
+                        <option value="2019">2019</option>
+                        <option value="2018">2018</option>
+                        <option value="2017">2017</option>
+                        <option value="2016">2016</option>
+                    </select>
+                    </td> 
+                </tr> 
+                        <tr>
+                            <td>Courses Applied For</td>
+                            <td>
+                               <input type="radio"id=""name="course applied for"value="course" />BCA 
+        
+                               <input type="radio"id=""name="course applied for"value="course" />B.Com
+        
+                               <input type="radio"id=""name="course applied for"value="course" />B.Sc 
+        
+                               <input type="radio"id=""name="course applied for"value="course" />B.A
+                               </td>                                                                  
+                              </tr>
+                              <tr>
+                                <td label for="address">ADDRESS</td></label>
+                                <td>
+                                    <textarea name="address" id="" cols="30" rows="4"></textarea>
+                                </td>
+                                </tr>
+                                <tr>
+                                    <td label for="country">COUNTRY:</label>              
+                                    </td>
+                                    <td>
+                                    <input type="text" id="country" name="country" placeholder="Enter country name here" required maxlength="30"> 
+                                     </td>
+                                     </tr>
+               
+            <tr>
+                <td>
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </td>
+              </tr>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+            </table>
+        
+            </form>
+        
+
+            <table align="center">
+                <tr>
+                <th id="1"><h3><a id="a" href="index.html">Home</a></h3></th>
+                <th id="2"><h3><a id="b" href="aboutus.html">About Us</a></h3></th>
+                <th id="3"><h3><a id="c" href="service.html"> Services</a></h3></th>
+                <th id="4"><h3><a id="a" href="contact us.html">Home</a></h3></th>
+                
+                
+                </tr>
+                
+                
+                
+                      </table> 
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
